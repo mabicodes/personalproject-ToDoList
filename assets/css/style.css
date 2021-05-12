@@ -88,3 +88,24 @@ body {
     color: black;
     background-color: #B0DEFF;
 }
+
+@media only screen and (min-width: 1400px) {
+    .lista-wrapper {
+        width: 50%;
+    }
+
+    .lista-wrapper input {
+        width: 600px;
+    }
+
+}
+
+@media only screen and (max-width: 1399px) and (min-width: 750px) {
+    .lista-wrapper {
+        width: 75%;
+    }
+
+    .lista-wrapper input {
+        width: 400px;
+    }
+}
