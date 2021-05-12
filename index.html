@@ -7,19 +7,23 @@
     <body>
         <div class="lista-wrapper">
             <h2>Mi lista de tareas</h2>
-            <p>Haz un doble-click encima de la tarea para marcarlo como completado</p>
+            <p><span id="tips">Consejos</span>: Haz un doble-click encima de la tarea para marcarlo como completado.</p>
             <form name="lista-adder">
                 <input type="text" id="lista-entrybox"/>
             </form>
-            <button id="agregar-button" class="soycutealgunproblema">Add</button>
+            <button id="add-button" class="soycutealgunproblema">AÑADIR</button>
             <br />
             <ol id="lista-tareas">
             </ol>
             <div id="control-wrapper">
-                <button id="quitartareacompletado" class="soycutealgunproblema"> Quitar Tarea Completado</button>
-                <button id="" class="soycutealgunproblema"></button>
+                <button id="eliminartarea-button" class="soycutealgunproblema">Eliminar Tarea Completado</button>
+                <button id="empty-button" class="soycutealgunproblema">Vaciar Lista</button>
+                <button id="save-button" class="soycutealgunproblema">Guardar Cambios</button>
             </div>
         </div>
+
+
+
         <script src="assets/js/main.js"></script>
     </body>
 </html>
