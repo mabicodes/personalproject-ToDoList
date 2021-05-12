@@ -23,25 +23,20 @@ body {
     border: #211E1E 1px solid;
     border-radius: 10%;
 }
-.lista-wrapper p{
-    font-style: italic;
-    color: antiquewhite;
-    margin: 5px 0;
-    display: flex;
-    justify-content: center;
-}
 #tips {
     display: flex;
     justify-content: flex-start;
     color: red;
     font-weight: bolder;
 }
+#msg{
+    font-style: italic;
+    color: antiquewhite;
+    margin: 5px 0;
+}
 /*lista ol*/
 .lista-wrapper ol{
     margin: 20px 0;
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
 }
 .lista-wrapper ol li{
 
