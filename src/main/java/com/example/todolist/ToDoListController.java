@@ -19,7 +19,7 @@ public class ToDoListController {
         tasks = new ArrayList<>();
     }
 
-    @GetMapping("/tasks")
+    @GetMapping("inputTask")
     public List<Task> allTask() {
         return tasks;
     }

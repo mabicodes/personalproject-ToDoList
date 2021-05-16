@@ -13,7 +13,7 @@ function addTask(tasks) {
 
 //2 funcion que pide al bakcend lo que hemos escrito en el form
 let loadTasks = () => {
-    fetch("/task")
+    fetch("/tasks")
         .then(r => r.json())
         .then(addTask)
 };
