@@ -1,5 +1,6 @@
 const tasksection = document.querySelector("#tasklist");
 
+//3 funcion que agrega un div con un texto de lo q escribio el usuario
 function addTask(tasks) {
     tasks.forEach(task =>{
         const element =
@@ -10,7 +11,7 @@ function addTask(tasks) {
     } )
 }
 
-//2 funcion que pide las peliculas al bakcend
+//2 funcion que pide al bakcend lo que hemos escrito en el form
 let loadTasks = () => {
     fetch("/task")
         .then(r => r.json())
@@ -18,4 +19,4 @@ let loadTasks = () => {
 };
 
 //1 no sé que hace pero se pone :v
-document.addEventListener("DOMContentLoaded", loadMovies)
+document.addEventListener("DOMContentLoaded", loadTasks)
