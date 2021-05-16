@@ -1,15 +1,7 @@
-const taskField = document.getElementById("todo");
-const list = document.getElementById("taskList");
-const submitBtn = document.getElementById("submit");
+const tasksection = document.querySelector("#tasklist");
 
-const addTask = (event) => {
-    const task = event.target.value;
+function addTask(tasks) {
+    tasks.forEach(task =>{
+        const element = <form></form>
+    } )
 }
-taskField.addEventListener('input', addTask);
-
-const submitTask = (event) => {
-    const submit = event.target.value;
-    submit.innerHtml=``;
-}
-submitBtn.addEventListener('click', submitTask);
-
