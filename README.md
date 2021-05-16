@@ -6,7 +6,7 @@
 ------------- | -------------
 [FIGMA](www.figma.com) | Prototype️
 IntelliJ IDEA| Writing code️
-Google | Teacher️
+Google | My God who answers my prayers
  Github | Class
 
 ## Languages used: 
