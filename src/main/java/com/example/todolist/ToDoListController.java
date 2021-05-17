@@ -19,7 +19,7 @@ public class ToDoListController {
         tasks = new ArrayList<>();
     }
 
-    //estoy importando el archivo incorrecto :v
+    //hay que quitar el import del task porq no me sirve igual, estan en el mismo archivo
     @GetMapping("/tasks")
     public List<Task> allTask() {return tasks;
     }
