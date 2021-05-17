@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    background-color: #211E1E;
+}
+/*header*/
+header {
+    display: flex;
+    justify-content: center;
+    height: 60px;
+    background-color: rebeccapurple;
+}
+header p {
+    font-size: 15px;
+    font-family: Calibri;
+    font-style: italic;
+    color: white;
+}
+/*main*/
+#taskList {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: auto;
+    justify-content: center;
+}
+    /*task class created in JS*/
+.task {
+
+}
+/* footer */
+footer{
+    height: 160px;
+    width: 100%;
+    background-color: rebeccapurple;
+    position: fixed;
+    bottom: 0;
+}
+.taskForm {
+    display: flex;
+    justify-content: center;
+    margin: 40px 0;
+}
+#inputTask {
+    border-radius: 10px;
+    border: none;
+    background-color: #211E1E;
+    color: white;
+}
+#submitbtn {
+    border-radius: 30px;
+    background-color: mediumpurple;
+    border: 1px solid white;
+    color: white;
+    transition: 0.2s;
+    margin-left: 5px;
+}
+#submitbtn:hover {
+    background-color: purple;
+    cursor: pointer;
+}
