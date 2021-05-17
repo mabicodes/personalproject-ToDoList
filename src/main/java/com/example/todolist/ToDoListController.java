@@ -20,8 +20,8 @@ public class ToDoListController {
     }
 
     //estoy importando el archivo incorrecto :v
-    @GetMapping("")
-    public List<Task> allTask() {return tasks;
+    @GetMapping("/tasks")
+    public List<> allTask() {return tasks;
     }
 
     @PostMapping("/tasks")
