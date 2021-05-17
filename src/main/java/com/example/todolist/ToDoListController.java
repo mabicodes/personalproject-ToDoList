@@ -1,9 +1,9 @@
 package com.example.todolist;
 
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 import org.springframework.scheduling.config.Task;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.servlet.view.RedirectView;
@@ -21,7 +21,9 @@ public class ToDoListController {
 
     //estoy importando el archivo incorrecto :v
     @GetMapping("/tasks")
-    public List<> allTask() {return tasks;
+    public @ResponseBody
+    ResponseEntity<String> get() {
+        return new ResponseEntity<String>("GET Response", HttpStatus.OK);
     }
 
     @PostMapping("/tasks")
