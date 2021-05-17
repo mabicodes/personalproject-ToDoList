@@ -19,9 +19,8 @@ public class ToDoListController {
         tasks = new ArrayList<>();
     }
 
-    @GetMapping("inputTask")
-    public List<Task> allTask() {
-        return tasks;
+    @GetMapping("/tasks")
+    public List<Task> allTask() {return tasks;
     }
 
     @PostMapping("/tasks")
